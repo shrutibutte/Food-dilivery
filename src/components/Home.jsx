@@ -3,6 +3,7 @@ import img1 from "../Assets/images/slide-3.jpg";
 import img2 from "../Assets/images/slide-2.jpg";
 import img3 from "../Assets/images/slide-1.jpg";
 import "../style.css/slider.css";
+import Card_Slider from "./Card_Slider";
 import { Link } from "react-router-dom";
 
 export default function Home() {
@@ -125,11 +126,11 @@ export default function Home() {
         </div>
       </nav>
 
+
       <div
         class="carousel slide"
         data-ride="carousel"
-        id="carouselExampleIndicators"
-      >
+        id="carouselExampleIndicators">
         <ol class="carousel-indicators">
           <li
             class="active"
@@ -205,6 +206,8 @@ export default function Home() {
           </button>
         </div>
       </div>
+
+      <Card_Slider/>
     </>
   );
 }
