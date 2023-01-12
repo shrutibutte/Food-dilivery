@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.fa {
+  font-size: 20px;
+  color: #fff;
+}
+.In_lg_mode {
+  margin-top: -10px;
+}
+
+@media screen and (max-width: 768px) {
+  .In_lg_mode {
+    margin-top: 0px;
+  }
+}
