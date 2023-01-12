@@ -5,7 +5,9 @@ import img3 from "../Assets/images/slide-1.jpg";
 import "../style.css/slider.css";
 import { Link } from "react-router-dom";
 
+
 export default function Home() {
+  
   return (
     <>
       <nav class="navbar navbar-expand-lg navbar-light fixed-top">
@@ -170,6 +172,7 @@ export default function Home() {
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="2000">
               <img src={img3} class="d-block w-100" alt="..." />
+          
               <div class="carousel-caption d-none d-md-block">
                 <h1 className="home_title">#WeLoveSnak</h1>
               </div>
@@ -205,6 +208,7 @@ export default function Home() {
           </button>
         </div>
       </div>
+      
     </>
   );
 }
